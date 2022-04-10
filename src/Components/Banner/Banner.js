@@ -1,12 +1,12 @@
 import React from 'react';
-
+import { Container } from 'react-bootstrap';
 import './Banner.css';
 import Arrow from '../../assets/Arrow'
 function Banner() {
   return (
     <div className="bannerParentDiv">
       <div className="bannerChildDiv">
-        <div className="menuBar">
+        <Container className="menuBar">
           <div className="categoryMenu">
             <span>ALL CATEGORIES</span>
             <Arrow></Arrow> 
@@ -20,13 +20,13 @@ function Banner() {
             <span>Commercial & Other Ve...</span>
             <span>For Rent: House & Apart...</span>
           </div>
-        </div>
+        </Container>
         <div className="banner">
           <img
             src="../../../Images/banner copy.png"
             alt=""
           />
-        </div>
+      </div>
       </div>
       
     </div>

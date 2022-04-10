@@ -1,20 +1,21 @@
 .viewParentDiv {
-  padding-top: 4em;
+  padding-top: 7em;
   display: flex;
 }
 .viewParentDiv .imageShowDiv {
   padding: 16px;
-  width: 70vw;
+  width: 65vw;
+  margin-left: 30px;
 }
 .viewParentDiv .imageShowDiv img {
-  width: 65vw;
-  height: 85vh;
+  width: 60vw;
+  height: 75vh;
 }
 
 .viewParentDiv .rightSection {
   padding: 16px;
   margin-top: 3em;
-  width: 30vw;
+  width: 20vw;
 }
 
 .viewParentDiv .rightSection .productDetails :first-child {

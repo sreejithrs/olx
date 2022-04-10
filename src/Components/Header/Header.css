@@ -35,7 +35,7 @@
 }
 
 .productSearch {
-  width: 35em;
+  width: 25em;
   height: 48px;
   border: 2px solid #002f34;
   border-radius: 4px;
@@ -61,7 +61,7 @@
 }
 
 .productSearch .searchAction {
-  min-width: 48px;
+  min-width: 4f8px;
   height: 48px;
   position: relative;
   display: flex;
@@ -92,9 +92,6 @@
   text-overflow: ellipsis;
   font-weight: bolder;
   margin-right: 5px;
-}
-
-.language svg {
 }
 
 .span {
@@ -161,4 +158,9 @@
   .sellMenu {
     display: none;
   }
+}
+
+
+.logout{
+  cursor: pointer;
 }
